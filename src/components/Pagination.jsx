@@ -11,7 +11,7 @@ const paginationDots = [
 
 export const Pagination = () => {
   return (
-    <nav className="absolute top-[670px] sm:top-[780px] md:top-[860px] lg:top-[909px] left-1/2 -translate-x-1/2 flex gap-4 sm:gap-6 md:gap-8 lg:gap-12 px-4">
+    <nav className="mx-auto max-w-screen-xl px-4 sm:px-6 md:px-8 py-6 flex justify-center gap-4 sm:gap-6 md:gap-8 lg:gap-12">
       {paginationDots.map((dot, index) => (
         <button
           key={index}

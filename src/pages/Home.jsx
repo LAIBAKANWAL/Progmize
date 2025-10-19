@@ -10,14 +10,16 @@ import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
-    <div className="overflow-hidden bg-gradient-to-b from-white to-[#AFABA9] w-full min-w-[1440px] min-h-screen relative">
+    <div className="overflow-hidden bg-gradient-to-b from-white to-[#AFABA9] w-full min-h-screen relative">
       <Header />
-      <HeroSection />
-      <FeaturedProduct />
-      <Pagination />
-      <ServicesSection />
-      <TechnologiesSection />
-      <ProcessSection />
+      <main className="pt-32 sm:pt-36 md:pt-40">
+        <HeroSection />
+        <FeaturedProduct />
+        <Pagination />
+        <ServicesSection />
+        <TechnologiesSection />
+        <ProcessSection />
+      </main>
       <Footer />
     </div>
   );
