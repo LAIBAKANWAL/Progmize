@@ -12,13 +12,7 @@ export const HeroSection = () => {
         src="src/assets/images/Rectangle 8.png"
       />
 
-      {/* Decorative Style SVG - Hidden on mobile */}
-      <img
-        className="hidden md:block absolute top-[50px] lg:top-[77px] left-[30%] lg:left-[484px] w-[250px] lg:w-[385px] h-[280px] lg:h-[426px] opacity-50 md:opacity-100"
-        alt="Style"
-        src="/figmaAssets/style-2.svg"
-      />
-
+      
       {/* Main Heading */}
       <h1 className="absolute top-[20px] sm:top-[28px] md:top-[32px] left-4 sm:left-8 md:left-[94px] w-[90%] sm:w-[85%] md:w-[779px] [text-shadow:0px_4px_4px_#00000040] font-pixelify font-normal text-white text-[28px] sm:text-[40px] md:text-[56px] lg:text-[78px] tracking-[0] leading-tight md:leading-[normal]">
         <span className="font-bold">

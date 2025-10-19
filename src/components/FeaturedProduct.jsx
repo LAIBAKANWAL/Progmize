@@ -20,5 +20,7 @@ export const FeaturedProduct = () => {
         </p>
       </section>
     </>
+
+    
   );
 };

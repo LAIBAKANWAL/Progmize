@@ -64,8 +64,8 @@ const technologyCategories = [
 
 export const TechnologiesSection = () => {
   return (
-    <section className="relative top-[1400px] sm:top-[1800px] md:top-[2400px] lg:top-[3027px] left-0 w-full px-4 sm:px-8 md:px-16 lg:px-[129px] py-8 sm:py-12 md:py-16">
-      
+    // <section className="relative top-[1400px] sm:top-[1800px] md:top-[2400px] lg:top-[3027px] left-0 w-full px-4 sm:px-8 md:px-16 lg:px-[129px] py-8 sm:py-12 md:py-16">
+       <section className="w-full max-w-screen-xl mx-auto px-4 sm:px-8 md:px-16 lg:px-[129px] py-12 sm:py-16">
       {/* Section Heading */}
       <h2 className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-[57px] font-inter font-bold text-[#023189] text-2xl sm:text-3xl md:text-4xl lg:text-[64px] tracking-[0] leading-tight">
         TECHNOLOGIES
