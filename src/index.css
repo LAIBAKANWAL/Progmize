@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Pixelify+Sans:wght@400;700&display=swap');
+
+@import "tailwindcss";
+
+/* Add your font classes manually */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-pixelify {
+  font-family: 'Pixelify Sans', cursive;
+}
