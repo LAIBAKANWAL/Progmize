@@ -14,7 +14,7 @@ export const Header = () => {
   return (
     <>
       <header
-        className="fixed top-0 left-0 w-full h-32 sm:h-36 md:h-38 bg-gradient-to-r from-[#023189] to-[#010d23] shadow-[inset_0px_4px_4px_#00000040] z-50 bg-cover bg-center"
+        className="fixed top-0 left-0 w-full h-32 sm:h-36 md:h-[152px] bg-gradient-to-r from-[#023189] to-[#010d23] shadow-[inset_0px_4px_4px_#00000040] z-50 bg-cover bg-center relative"
         style={{ backgroundImage: "url('src/assets/images/Rectangle 8.png')" }}
       >
         <div className="max-w-[1440px] mx-auto h-full relative px-4 sm:px-6 md:px-7">
@@ -155,10 +155,9 @@ export const Header = () => {
             </div>
           )}
         </div>
+        {/* Bottom Line anchored to header bottom */}
+        <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-[#023189] to-[#010d23] z-40" />
       </header>
-
-      {/* Bottom Line */}
-      <div className="fixed top-[100px] sm:top-[110px] md:top-[123px] left-0 w-full h-1 bg-gradient-to-r from-[#023189] to-[#010d23] z-40" />
     </>
   );
 };

@@ -52,8 +52,8 @@ const footerSolutions = [
 
 export const Footer = () => {
   return (
-    <footer className="absolute top-[5650px] left-0 w-full bg-gradient-to-r from-[#023189] to-[#010d23] py-16 px-[115px]">
-      <div className="grid grid-cols-6 gap-8 mb-12">
+    <footer className="w-full bg-gradient-to-r from-[#023189] to-[#010d23] py-12 sm:py-16 px-6 sm:px-10 md:px-16 lg:px-[115px]">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-12">
         <div>
           <h4 className="font-inter font-bold text-white text-xl mb-6">Services</h4>
           <ul className="space-y-3">
