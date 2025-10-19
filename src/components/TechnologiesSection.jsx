@@ -4,90 +4,131 @@ const technologyCategories = [
   {
     category: "Backend",
     technologies: [
-      { name: "PHP", image: "", className: "top-[3264px] left-[484px] w-32 h-[67px]" },
-      { name: "Node.js", image: "", className: "top-[3231px] left-[647px] w-[228px] h-[141px]" },
-      { name: ".Net", text: ".Net", className: "top-[3263px] left-[913px] w-[94px] h-[81px]" },
-      { name: "Java", image: "", className: "top-[3197px] left-[1039px] w-[164px] h-[163px]" },
+      { name: "PHP", image: "src/assets/images/phplogo.png" },
+      { name: "Node.js", image: "src/assets/images/NODE.png" },
+      { name: ".Net", image: "src/assets/images/Net.png" },
+      { name: "Java", image: "src/assets/images/java.png" },
     ],
   },
   {
     category: "Front-end",
     technologies: [
-      { name: "React", image: "", className: "top-[3435px] left-[484px] w-[110px] h-[113px]" },
-      { name: "Angular", image: "", className: "top-[3450px] left-[638px] w-[220px] h-[106px]" },
-      { name: "Vue", image: "", className: "top-[3452px] left-[906px] w-[108px] h-[107px]" },
-      { name: "Next.js", image: "", className: "top-[3434px] left-[1065px] w-[141px] h-[134px]" },
+      { name: "React", image: "src/assets/images/react.png" },
+      { name: "Angular", image: "src/assets/images/angular.png" },
+      { name: "Vue", image: "src/assets/images/vue.png" },
+      { name: "Next.js", image: "src/assets/images/angular.png" },
     ],
   },
   {
     category: "DevOps\n& Cloud",
     technologies: [
-      { name: "Azure", image: "", className: "top-[3628px] left-[480px] w-[267px] h-[83px]" },
-      { name: "AWS", image: "", className: "top-[3653px] left-[786px] w-[136px] h-[83px]" },
-      { name: "Docker", image: "", className: "top-[3628px] left-[944px] w-[355px] h-24" },
+      { name: "Azure", image: "src/assets/images/azure.png" },
+      { name: "AWS", image: "src/assets/images/aws.png" },
+      { name: "Google Cloud", image: "src/assets/images/google.png" },
+      { name: "Kubernetes", image: "src/assets/images/aws.png" },
     ],
   },
   {
     category: "AI & ML",
     technologies: [
-      { name: "TensorFlow", image: "", className: "top-[3794px] left-[474px] w-[149px] h-[149px]" },
-      { name: "PyTorch", image: "", className: "top-[3799px] left-[785px] w-[127px] h-[137px]" },
-      { name: "OpenAI", image: "", className: "top-[3780px] left-[987px] w-[267px] h-[133px]" },
-      { name: "Python", image: "", className: "top-[3951px] left-[490px] w-[106px] h-[107px]" },
-      { name: "Scikit", image: "", className: "top-[3983px] left-[745px] w-[219px] h-12" },
-      { name: "Keras", image: "", className: "top-[3921px] left-[1013px] w-[157px] h-[221px]" },
-      { name: "Pandas", image: "", className: "top-[4060px] left-[449px] w-[211px] h-[106px]" },
-      { name: "NumPy", image: "", className: "top-[4086px] left-[765px] w-[169px] h-16" },
-      { name: "Jupyter", image: "", className: "top-[4076px] left-[1008px] w-[207px] h-[98px]" },
+      { name: "Python", image: "src/assets/images/python.png" },
+      { name: "TensorFlow", image: "src/assets/images/Tensorflow.png" },
+      { name: "PyTorch", image: "src/assets/images/Tensorflow.png" },
+      { name: "OpenAI", image: "src/assets/images/gpt.png" },
+      { name: "Scikit", image: "src/assets/images/python.png" },
+      { name: "Meta", image: "src/assets/images/meta.png" },
     ],
   },
   {
     category: "QA",
     technologies: [
-      { name: "JMeter", image: "", className: "top-[4200px] left-[478px] w-[184px] h-[68px]" },
-      { name: "Selenium", image: "", className: "top-[4193px] left-[800px] w-[99px] h-[99px]" },
+      { name: "Jenkins", image: "src/assets/images/meta.png" },
+      { name: "Jira", image: "src/assets/images/meta.png" },
+      { name: "Kibana", image: "src/assets/images/meta.png" },
+      { name: "JMeter", image: "src/assets/images/meta.png" },
+      { name: "Selenium", image: "src/assets/images/meta.png" },
     ],
   },
   {
     category: "UI/UX",
     technologies: [
-      { name: "Figma", image: "", className: "top-[4310px] left-[503px] w-[92px] h-[93px]" },
-      { name: "Sketch", image: "", className: "top-[4334px] left-[715px] w-[267px] h-[67px]" },
-      { name: "Adobe XD", image: "", className: "top-[4329px] left-[1085px] w-[77px] h-[75px]" },
-      { name: "InVision", image: "", className: "top-[4456px] left-[482px] w-[154px] h-[52px]" },
-      { name: "Zeplin", image: "", className: "top-[4464px] left-[741px] w-[237px] h-9" },
-      { name: "Marvel", image: "", className: "top-[4452px] left-[1036px] w-[163px] h-[79px]" },
+      { name: "Figma", image: "src/assets/images/bootstrap.png" },
+      { name: "Sketch", image: "src/assets/images/bootstrap.png" },
+      { name: "Adobe XD", image: "src/assets/images/bootstrap.png" },
+      { name: "InVision", image: "src/assets/images/bootstrap.png" },
+      { name: "SurveyMonkey", image: "src/assets/images/bootstrap.png" },
+      { name: "Miro", image: "src/assets/images/bootstrap.png" },
     ],
   },
 ];
 
 export const TechnologiesSection = () => {
   return (
-    <section className="absolute top-[3027px] left-0 w-full px-[129px]">
-      <h2 className="text-center mb-[57px] font-inter font-bold text-progmize-blue text-[64px] tracking-[0] leading-[normal]">
+    <section className="relative top-[1400px] sm:top-[1800px] md:top-[2400px] lg:top-[3027px] left-0 w-full px-4 sm:px-8 md:px-16 lg:px-[129px] py-8 sm:py-12 md:py-16">
+      
+      {/* Section Heading */}
+      <h2 className="text-center mb-8 sm:mb-10 md:mb-12 lg:mb-[57px] font-inter font-bold text-[#023189] text-2xl sm:text-3xl md:text-4xl lg:text-[64px] tracking-[0] leading-tight">
         TECHNOLOGIES
       </h2>
       
-      <div className="relative">
-        <img className="w-full h-[1551px] object-cover" alt="Rectangle" src="/figmaAssets/rectangle-27.svg" />
+      {/* Technologies Container */}
+      <div className="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-2xl overflow-hidden border-2 border-gray-300">
         
-        <div className="absolute top-[113px] left-[36px] w-[1106px]">
-          <img className="absolute top-[171px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[380px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[574px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[968px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[1097px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[1357px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          
-          {technologyCategories.map((category, index) => (
-            <div key={index}>
-              <h3 className="font-inter font-bold text-white text-[32px] tracking-[0] leading-[normal] whitespace-pre-line">
-                {category.category}
-              </h3>
+        {/* Left Decorative Border */}
+        <div className="absolute left-0 top-0 w-1 sm:w-2 h-full bg-gradient-to-b from-[#023189] via-blue-400 to-[#023189]" />
+        
+        {/* Technologies Grid */}
+        <div className="p-4 sm:p-6 md:p-8 lg:p-12">
+          {technologyCategories.map((category, categoryIndex) => (
+            <div 
+              key={categoryIndex}
+              className={`grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4 md:gap-6 lg:gap-8 items-center py-6 sm:py-8 md:py-10 lg:py-12 ${
+                categoryIndex !== technologyCategories.length - 1 ? 'border-b-2 border-gray-300' : ''
+              }`}
+            >
+              {/* Category Label */}
+              <div className="bg-gradient-to-br from-[#023189] to-[#0a4db5] rounded-lg p-4 shadow-lg">
+                <h3 className="font-inter font-bold text-white text-lg sm:text-xl md:text-2xl lg:text-[32px] tracking-[0] leading-tight text-center md:text-left whitespace-pre-line">
+                  {category.category}
+                </h3>
+              </div>
+              
+              {/* Technology Icons Grid */}
+              <div className={`grid gap-4 sm:gap-5 md:gap-6 ${
+                category.technologies.length <= 4 
+                  ? 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4' 
+                  : 'grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6'
+              }`}>
+                {category.technologies.map((tech, techIndex) => (
+                  <div
+                    key={techIndex}
+                    className="group bg-white rounded-xl p-3 sm:p-4 flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 hover:bg-gradient-to-br hover:from-white hover:to-blue-50 min-h-[80px] sm:min-h-[90px] md:min-h-[100px]"
+                  >
+                    {tech.image ? (
+                      <img
+                        src={tech.image}
+                        alt={tech.name}
+                        className="w-full h-auto max-w-[60px] sm:max-w-[70px] md:max-w-[80px] object-contain transition-transform duration-300 group-hover:scale-110"
+                      />
+                    ) : (
+                      <span className="font-inter font-bold text-[#023189] text-sm sm:text-base md:text-lg text-center">
+                        {tech.name}
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
+        
+        {/* Bottom Decorative Border */}
+        <div className="absolute bottom-0 left-0 w-full h-1 sm:h-2 bg-gradient-to-r from-[#023189] via-blue-400 to-[#023189]" />
       </div>
+      
+      {/* Background Decoration */}
+      <div className="absolute top-0 right-0 w-64 h-64 bg-[#023189] opacity-5 rounded-full blur-3xl -z-10" />
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-400 opacity-5 rounded-full blur-3xl -z-10" />
     </section>
   );
 };
