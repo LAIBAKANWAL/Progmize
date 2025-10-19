@@ -63,30 +63,30 @@ const technologyCategories = [
 
 export const TechnologiesSection = () => {
   return (
-    <section className="absolute top-[3027px] left-0 w-full px-[129px]">
-      <h2 className="text-center mb-[57px] font-inter font-bold text-progmize-blue text-[64px] tracking-[0] leading-[normal]">
+    <section className="w-full mx-auto max-w-screen-xl px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-24">
+      <h2 className="text-center mb-10 sm:mb-12 md:mb-16 font-inter font-bold text-progmize-blue text-3xl sm:text-4xl md:text-5xl">
         TECHNOLOGIES
       </h2>
-      
-      <div className="relative">
-        <img className="w-full h-[1551px] object-cover" alt="Rectangle" src="/figmaAssets/rectangle-27.svg" />
-        
-        <div className="absolute top-[113px] left-[36px] w-[1106px]">
-          <img className="absolute top-[171px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[380px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[574px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[968px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[1097px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          <img className="absolute top-[1357px] left-0 w-full h-0.5" alt="Line" src="/figmaAssets/line-9.svg" />
-          
-          {technologyCategories.map((category, index) => (
-            <div key={index}>
-              <h3 className="font-inter font-bold text-white text-[32px] tracking-[0] leading-[normal] whitespace-pre-line">
-                {category.category}
-              </h3>
-            </div>
-          ))}
-        </div>
+
+      <div className="rounded-xl overflow-hidden">
+        <img className="w-full max-h-[800px] object-cover" alt="Rectangle" src="/figmaAssets/rectangle-27.svg" />
+      </div>
+
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        {technologyCategories.map((category, index) => (
+          <div key={index} className="bg-white/80 rounded-lg p-6 shadow">
+            <h3 className="font-inter font-bold text-progmize-blue text-2xl mb-4 whitespace-pre-line">
+              {category.category}
+            </h3>
+            <ul className="flex flex-wrap gap-3">
+              {category.technologies.map((tech, techIndex) => (
+                <li key={techIndex} className="px-3 py-1 rounded-full bg-[#FFB81D]/10 text-[#023189] font-inter text-sm">
+                  {tech.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </section>
   );

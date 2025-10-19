@@ -52,8 +52,8 @@ const footerSolutions = [
 
 export const Footer = () => {
   return (
-    <footer className="absolute top-[5650px] left-0 w-full bg-gradient-to-r from-[#023189] to-[#010d23] py-16 px-[115px]">
-      <div className="grid grid-cols-6 gap-8 mb-12">
+    <footer className="w-full bg-gradient-to-r from-[#023189] to-[#010d23] py-12 sm:py-16">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 md:px-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
         <div>
           <h4 className="font-inter font-bold text-white text-xl mb-6">Services</h4>
           <ul className="space-y-3">
@@ -133,8 +133,8 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t border-white/20 pt-8">
-        <div className="flex justify-between items-center">
+      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 md:px-8 border-t border-white/20 pt-8">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-between items-start sm:items-center">
           <p className="font-inter text-white/60 text-sm">© 2024 Progmize. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="font-inter text-white/60 text-sm hover:text-white transition-colors">

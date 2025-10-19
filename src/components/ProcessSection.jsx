@@ -40,18 +40,18 @@ const processSteps = [
 
 export const ProcessSection = () => {
   return (
-    <section className="absolute top-[4650px] left-0 w-full px-[129px] py-20">
-      <h2 className="text-center mb-16 font-inter font-bold text-progmize-blue text-[64px] tracking-[0] leading-[normal]">
+    <section className="w-full mx-auto max-w-screen-xl px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-24">
+      <h2 className="text-center mb-10 sm:mb-12 md:mb-16 font-inter font-bold text-progmize-blue text-3xl sm:text-4xl md:text-5xl">
         HOW IT WORKS
       </h2>
       
-      <div className="relative h-[800px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
         {processSteps.map((step, index) => (
-          <div key={index} className={`absolute ${step.className} w-[350px]`}>
-            <div className="bg-white rounded-lg p-6 shadow-lg">
-              <div className="text-6xl font-bold text-progmize-yellow mb-4">{step.number}</div>
-              <h3 className="font-inter font-bold text-progmize-blue text-2xl mb-3">{step.title}</h3>
-              <p className="font-inter text-black text-lg leading-relaxed">{step.description}</p>
+          <div key={index} className="w-full">
+            <div className="bg-white rounded-lg p-6 shadow-lg h-full">
+              <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-progmize-yellow mb-4">{step.number}</div>
+              <h3 className="font-inter font-bold text-progmize-blue text-xl sm:text-2xl mb-3">{step.title}</h3>
+              <p className="font-inter text-black text-base sm:text-lg leading-relaxed">{step.description}</p>
             </div>
           </div>
         ))}
