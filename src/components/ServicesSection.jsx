@@ -161,7 +161,7 @@ export const ServicesSection = () => {
   },
 ];
   return (
-    <section className="relative top-[700px] sm:top-[850px] md:top-[950px] lg:top-[1055px] left-0 w-full px-4 sm:px-8 md:px-12 lg:px-[115px] py-8 sm:py-12 md:py-16">
+    <section className="w-full max-w-screen-xl mx-auto px-4 sm:px-8 md:px-12 lg:px-[115px] py-12 sm:py-16 md:py-20">
       
       {/* Section Heading */}
       <h2 className="text-center mb-8 sm:mb-12 md:mb-16 lg:mb-[101px] [text-shadow:-2px_2px_4px_#00000040] font-inter font-bold text-[#023189] text-3xl sm:text-4xl md:text-5xl lg:text-[64px] tracking-[0] leading-tight">

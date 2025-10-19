@@ -10,7 +10,7 @@ import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
-    <div className="bg-gradient-to-b from-white to-[#AFABA9] w-full min-w-[1440px] min-h-[6400px] relative overflow-x-hidden">
+    <div className="bg-gradient-to-b from-white to-[#AFABA9] w-full min-h-screen overflow-x-hidden pt-[128px] sm:pt-[144px] md:pt-[152px]">
       <Header />
       <HeroSection />
       <FeaturedProduct />

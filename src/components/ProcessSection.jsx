@@ -40,15 +40,15 @@ const processSteps = [
 
 export const ProcessSection = () => {
   return (
-    <section className="absolute top-[4650px] left-0 w-full px-[129px] py-20">
+    <section className="w-full max-w-screen-xl mx-auto px-4 sm:px-8 md:px-16 lg:px-[129px] py-16 sm:py-20">
       <h2 className="text-center mb-16 font-inter font-bold text-progmize-blue text-[64px] tracking-[0] leading-[normal]">
         HOW IT WORKS
       </h2>
       
-      <div className="relative h-[800px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {processSteps.map((step, index) => (
-          <div key={index} className={`absolute ${step.className} w-[350px]`}>
-            <div className="bg-white rounded-lg p-6 shadow-lg">
+          <div key={index} className="w-full">
+            <div className="bg-white rounded-lg p-6 shadow-lg h-full">
               <div className="text-6xl font-bold text-progmize-yellow mb-4">{step.number}</div>
               <h3 className="font-inter font-bold text-progmize-blue text-2xl mb-3">{step.title}</h3>
               <p className="font-inter text-black text-lg leading-relaxed">{step.description}</p>
